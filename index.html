@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drum Kit</title>
-    link rel="stylesheet" href="style.css">
   <link rel="icon" href="https://fav.farm/🔥" />
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
     <div class="Keys">
@@ -46,7 +47,7 @@
             <span class="sound">tink</span>
         </div>
     </div>
-
+<!-- 
     <audio data-key="65" src="sounds/clap.wav"></audio>
     <audio data-key="83" src="sounds/hihat.wav"></audio>
     <audio data-key="68" src="sounds/kick.wav"></audio>
@@ -55,6 +56,14 @@
     <audio data-key="72" src="sounds/ride.wav"></audio>
     <audio data-key="74" src="sounds/snare.wav"></audio>
     <audio data-key="75" src="sounds/tom.wav"></audio>
-    <audio data-key="76" src="sounds/tink.wav"></audio>
+    <audio data-key="76" src="sounds/tink.wav"></audio> -->
+
+    <script>
+
+    window.addEventListener('keydown' , function(e){
+    console.log(e.key);
+});
+
+    </script>
 </body>
 </html>
